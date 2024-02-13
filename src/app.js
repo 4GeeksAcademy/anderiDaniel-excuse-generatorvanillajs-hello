@@ -1,11 +1,5 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+const excuseGenerator
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+let texto = "hola, aca estoy yo";
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+document.getElementById("excuse").innerHTML = texto;
