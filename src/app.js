@@ -12,9 +12,9 @@ window.onload = function() {
       "while I was praying"
     ];
     excuse.push(who[Math.floor(Math.random() * 3 + 1)]);
-    excuse.push(" " + action[Math.floor(Math.random() * 3 + 1)]);
-    excuse.push(" " + what[Math.floor(Math.random() * 2 + 1)]);
-    excuse.push(" " + when[Math.floor(Math.random() * 4 + 1)]);
+    excuse.push(" " + action[Math.floor(Math.random() * action.length + 1)]);
+    excuse.push(" " + what[Math.floor(Math.random() * what.length + 1)]);
+    excuse.push(" " + when[Math.floor(Math.random() * when.length + 1)]);
     return excuse.join("");
   };
   let texto = excuseGenerator();
